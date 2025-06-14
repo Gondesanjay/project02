@@ -16,3 +16,9 @@
         </div>
     </div>
 </x-layouts.app>
+
+@extends('layouts.app')
+
+@section('content')
+    <livewire:exam-dashboard />
+@endsection
